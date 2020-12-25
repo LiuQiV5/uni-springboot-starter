@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.uni.common.config.CorsConfig,\
+  com.uni.common.config.UniJacksonCustomizerConfig
+
