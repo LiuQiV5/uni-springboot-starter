@@ -5,6 +5,7 @@ import org.springframework.validation.annotation.Validated;
 
 import javax.validation.constraints.NotBlank;
 import java.time.LocalDate;
+import java.util.List;
 
 @Setter
 @Getter
@@ -24,5 +25,10 @@ public class UserSchoolDTO {
     private String schoolGuid;
 
     private LocalDate localDate;
+    
+    private List<String> list;
 
+    private Boolean primary;
+
+    private Integer sum;
 }
