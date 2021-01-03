@@ -19,5 +19,7 @@
     <modules>
         <module>uni-common</module>
         <module>hello-custom-springboot-autoconfig</module>
+        <module>oauth2authorizationserver</module>
+        <module>oauth2resourceserver</module>
     </modules>
 </project>
